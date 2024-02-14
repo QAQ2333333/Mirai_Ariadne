@@ -1,0 +1,17 @@
+[project]
+name = "EroEroBot"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "su", email = "2198694220@qq.com"},
+]
+dependencies = [
+    "graia-ariadne>=0.11.7",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "AGPL-3.0-Only"}
+
+
+[tool.pdm]
+distribution = false

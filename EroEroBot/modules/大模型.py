@@ -16,7 +16,7 @@ from graia.saya import Saya
 from graia.saya.builtins.broadcast import ListenerSchema
 from graiax import silkcoder
 
-dashscope.api_key = "sk-1110983c2aa94056a331fdb4ae422816"
+dashscope.api_key = ""
 channel = Channel.current()
 inc = create(InterruptControl)
 saya = Saya.current()
